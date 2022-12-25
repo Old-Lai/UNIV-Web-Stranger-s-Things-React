@@ -117,7 +117,7 @@ const IndividualPost = (props)=>{
             {!isEditing? <NormalMode/> : <EditMode/>}
             {!isEditing && isAuthor && <button onClick={()=>doRemovePost()}>&#10006;</button>}
             {!isEditing && isAuthor && <button onClick={()=>{setIsEditing(true)}}>&#x270E;</button>}
-            {!isAuthor && <MessageForm token={token} postID={_id}/>}
+            {token && !isAuthor && <MessageForm token={token} postID={_id}/>}
         </section>
     )
 }
