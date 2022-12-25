@@ -1,0 +1,84 @@
+.post {
+    margin: 10px 30px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  
+  .post.isAuthor *{
+    color:rgb(172, 21, 21);
+  }
+  
+  .post *{
+    margin: 0px;
+  }
+  
+  #postForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: rgb(133, 207, 153);
+    height: 200px;
+    padding: 10px 0px;
+  }
+  
+  #postForm *{
+    margin:0px 10px;
+  }
+  
+  #postForm .title, #postForm .description{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+
+  #postForm .description input{
+    height:40px;
+  }
+
+  #postForm .willDeliver{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2px 0px;
+  }
+
+  .createPost{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:200px;
+  }
+
+  .createPostGap{
+    height:200px
+  }
+
+  .messageForm{
+    display: flex;
+  }
+
+  .message *{
+    margin:0;
+  }
+
+  section.message{
+    margin-left:60px;
+  }
+
+  div.message{
+    border: 2px solid black; 
+    border-radius: 20px;
+  }
+
+  div.message *{
+    margin: 5px 0px;
+    margin-left: 20px;
+  }
+
+  .profilePosts{
+    margin-bottom: 30px
+  }

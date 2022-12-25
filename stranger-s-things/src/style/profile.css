@@ -1,0 +1,7 @@
+section.profile{
+    padding: 20px 10px;
+}
+
+section.profile > div.stats *{
+    margin: 10px 30px;
+}
